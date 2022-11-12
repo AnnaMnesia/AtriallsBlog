@@ -19,7 +19,6 @@ body{
     color: var(--black);
     background-color: black;
 }
-
 img{
     width: 100%;
     display: block;
@@ -32,17 +31,11 @@ img{
 }
 
 /*--------header---------*/
-header{
-    min-height: 100vh;
-    background: url(/images/blog.png) center/cover no-repeat fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-}
 
 .navbar{
     text-align: center;
     padding: 2rem;
+    background:#4C07E8;
 }
 
 .navbar_brand{
@@ -74,57 +67,7 @@ header{
     color: #38D1AA;
 }
 
-.banner{
-    flex: 1;
-    display: flex;
-    align-items:center; /*----or center----*/
-    justify-content: center;
-    text-align: center;
-}
-
-.banner h1{
-    color: #CFFF3F;
-}
-
-.banner p{
-    color: #CFFF3F;
-    font-size: 3rem;
-    padding: 3rem 0 2rem 0;
-}
-
-.banner form{
-    background: black;
-    border-radius: 2rem;
-    padding: 0.6rem 1rem;
-    display: flex;
-    justify-content: space-between; 
-}
-
-.search_input{
-    font-size: 1.1rem;
-    width: 100%;
-    outline: 0;
-    padding: 0.6rem 0;
-    border: none;
-    background: black;
-    color: #4C07E8;
-}
-
-.search_input ::placeholder{
-    text-transform: capitalize;
-}
-
-.search_btn{
-    width: 40px;
-    font-size: 1.1rem;
-    color:#4C07E8;
-    border: none;
-    background: transparent;
-    outline: 0;
-    cursor: pointer;
-}
-
-/*----blog------*/
+/*----post----*/
 .blog{
     background: black;
     padding: 4.5rem 0;
@@ -164,20 +107,18 @@ header{
     padding-bottom: 0.5rem;
 }
 
-.blog_text h2{
-    font-family: var(--Fragment);
-    color: #4C07E8;
-    padding: 1rem 0;
-    font-size: 1.65rem;
-}
-.blog_text h2:hover{
-    color:#CFFF3F;
-}
 
 .blog_text p{
     font-size: 1.1rem;
     opacity: 0.9;
     padding-bottom: 1.2rem;
+}
+.blog_text h3{
+    color: #4C07E8;
+    margin: 1.5rem 0 ;
+}
+.blog_text h4{
+    margin: 1.5rem 0;
 }
 
 .blog_text a{
@@ -196,20 +137,27 @@ header{
     background: #CFFF3F;
 }
 
-.title h2{
-    color:#4C07E8;
-    font-size: 3rem;
-    text-align: center;
+.blog_item h1{
+    color: #4C07E8;
+    margin: 5rem 0;
+    font-size: 4rem;
+
 }
-.title h2:hover{
+
+.blog_item h1:hover{
     color: #CFFF3F;
 }
 
-.title p{
+.blog_item h2{
+    margin: 3rem 0;
     color: #ffff;
-    font-size: 1.2rem;
-    text-align: center;
-    padding: 1rem 0;
-    margin: 1rem 0;
+    font-size: 1.5rem;
 }
 
+.blog_text #stalker2{
+    color:#CFFF3F;
+    background: none;
+    font-family: var(--Fragment);
+    font-size: 1rem;
+    
+}
