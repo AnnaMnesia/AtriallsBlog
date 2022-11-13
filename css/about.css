@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fragment+Mono:ital@0;1&family=Righteous&family=Rubik+Wet+Paint&display=swap');
+
+
+:root {
+    --Bungee: 'Bungee Shade', regular;
+    --Fragment: 'Fragment Mono', regular;
+    --Righteous: 'Righteous', display;
+    --Rubik: 'Rubik Wet Paint', display
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--Fragment);
+}
+
+body {
+    line-height: 1.4;
+    color: var(--black);
+    background-color: black;
+}
+
+img {
+    float: left;
+    display: block;
+    width: 30%;
+    height: 30%;
+    border-radius: 4px;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+/*--------header---------*/
+
+.navbar {
+    text-align: center;
+    padding: 2rem;
+    background: #4C07E8;
+}
+
+.navbar_brand {
+    color: #ffff;
+    font-size: 2.5rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--Rubik);
+    letter-spacing: 1px;
+}
+
+.navbar_brand:hover {
+    color: #CFFF3F;
+}
+
+.navbar_nav a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0.4rem 0.1rem;
+    letter-spacing: 3px;
+    transition: opacity 0.5s ease;
+}
+
+.navbar_nav a:hover {
+    color: #CFFF3F;
+}
+
+.title h1 {
+    color: #4C07E8;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.title h1:hover {
+    color: #CFFF3F;
+}
+
+.title p {
+    color: #ffff;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.about_text>p {
+    color: #ffff;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    padding: 0.6rem 0;
+}
+
+.about_text h3 {
+    color: #4C07E8;
+    font-size: 1.1rem;
+    padding-bottom: 1.2rem;
+}
+
+.about {
+    padding: 4.5rem 0;
+}
+
+.about_text {
+    margin: 2rem 0;
+}
+
+/*-----footer------*/
+footer {
+    background: #4C07E8;
+    color: #ffff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+span1 {
+    font-family: var(--Rubik);
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    display: block;
+    letter-spacing: 2px;
+}
+
+span1:hover {
+    color: #CFFF3F;
+}
+
+.social_links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.social_links a {
+    border: 2px solid #ffff;
+    color: #ffff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all o.5s ease;
+}
+
+.social_links a:hover {
+    background: #CFFF3F;
+    color: #4C07E8;
+}

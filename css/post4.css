@@ -50,7 +50,7 @@ img {
 }
 
 .navbar_brand:hover {
-    color: #38D1AA;
+    color: #CFFF3F;
 }
 
 .navbar_nav a {
@@ -65,7 +65,7 @@ img {
 }
 
 .navbar_nav a:hover {
-    color: #38D1AA;
+    color: #CFFF3F;
 }
 
 /*----post----*/
@@ -205,4 +205,50 @@ blockquote {
 
 .swiper .swiper-pagination-bullet-active {
     background: #CFFF3F;
+}
+
+/*-----footer------*/
+footer {
+    background: #4C07E8;
+    color: #ffff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+span1 {
+    font-family: var(--Rubik);
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    display: block;
+    letter-spacing: 2px;
+}
+
+span1:hover {
+    color: #CFFF3F;
+}
+
+.social_links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.social_links a {
+    border: 2px solid #ffff;
+    color: #ffff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all o.5s ease;
+}
+
+.social_links a:hover {
+    background: #CFFF3F;
+    color: #4C07E8;
 }
