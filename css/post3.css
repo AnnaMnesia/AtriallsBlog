@@ -167,5 +167,11 @@ img{
 }
 
 iframe{
+    margin: 2rem 0;
+}
+
+blockquote{
+    font-size: 1.5rem;
     margin: 2rem;
+    padding: 2rem;
 }

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Atrialls Blog</title>
+      <link rel="stylesheet" href="/css/post4.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+         />
+   </head>
+   <body>
+      <!------header------>
+      <header>
+         <nav class="navbar">
+            <div class="container">
+               <a href="/html/index.html" class="navbar_brand">Atrialls Blog</a>
+               <div class="navbar_nav">
+                  <a href="/html/index.html">HOME</a>
+                  <a href="/html/about.html">ABOUT</a>
+                  <a href="/html/contact.html">CONTACT</a>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!------end of header------>
+      <!-----blog----->
+      <section class="blog" id="blog">
+         <div class="container">
+            <div class="blog_content">
+               <!----item----->
+               <div class="blog_item">
+                  <div class="blog_img">
+                     <h1>
+                     Overwatch 2: Blizzard relies on massive cheater tracking
+                     <h2>With the defensive matrix initiative against cheaters, trolls and haters
+                     </h2>
+                     <img
+                        src="/images/post4Overwatch2 .jpeg"
+                        alt="Overwatch 2 ps game"
+                        title="Overwatch 2"
+                        />
+                     <span class="far fa-heart"></span>
+                  </div>
+                  <div class="blog_text">
+                     <p>
+                        On October 4, 2022, Overwatch 2, the successor to Blizzard's successful online shooter, will be available free of charge. The development team is tackling an old problem of all online games head-on: cheaters, haters and trolls.
+                     </p>
+                     <h3>Defense against cheaters ensures fun</h3>
+                     <p>
+                        With the so-called "Defensive Matrix Initiative", Blizzard wants to place a strong focus on maintaining the positive gaming experience in the future. Programs are to be defined, developed and promoted that help to ban disruptive players and cheaters.
+                     </p>
+                     <p>Precisely because of the competitive character of Overwatch 2, it is important to guarantee a fair and safe gaming environment in which hatred of fellow players and destructive behavior have no chance.
+                        This also includes the new SMS account protection, for which you have to connect your accounts on all platforms with a valid telephone number from October 4, 2022. This phone number cannot be used to create multiple accounts, certain number types such as prepaid and VOIP numbers cannot be used at all.
+                     </p>
+                     <p>If unauthorized persons tamper with your account, the SMS verification can draw your attention to such manipulations at an early stage, and the SMS protection also makes it difficult for disruptive players to return to the game.
+                     </p>
+                     <h3>Overwatch 2: All 35 playable characters at release</h3>
+                     <div class="container2">
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                           <!-- Additional required wrapper -->
+                           <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide"><img src="/images/collagephoto1.png" alt="Overwatch2 character"></div>
+                              <div class="swiper-slide"><img src="/images/collage2.jpeg" alt="Overwatch2 character"></div>
+                              <div class="swiper-slide"><img src="/images/collage3.jpeg" alt="Overwatch2 character"></div>
+                              <div class="swiper-slide"><img src="/images/collage4.jpeg" alt="Overwatch2 character"></div>
+                              <div class="swiper-slide"><img src="/images/collage5.png" alt="Overwatch2 character"></div>
+                           </div>
+                           <!-- If we need pagination -->
+                           <div class="swiper-pagination"></div>
+                           <!-- If we need navigation buttons -->
+                           <div class="swiper-button-prev"></div>
+                           <div class="swiper-button-next"></div>
+                           <!-- If we need scrollbar 
+                           <div class="swiper-scrollbar"></div>-->
+                        </div>
+                        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+                        <script>
+                            const swiper = new Swiper('.swiper', {
+                           // Optional parameters
+                              autoplay:{
+                                 delay: 3000,
+                                 disableOnInteraction: false,
+                              },
+                           loop: true,
+
+                           // If we need pagination
+                           pagination: {
+                              el: '.swiper-pagination',
+                              clickable: true,
+                           },
+
+                           // Navigation arrows
+                           navigation: {
+                           nextEl: '.swiper-button-next',
+                           prevEl: '.swiper-button-prev',
+                           },
+                           
+                           });
+                        </script>
+                     </div>
+                     <h3>New system design protection</h3>
+                     <p>
+                        In addition to existing mechanisms that recognize disruptive behavior, cheating and offensive text messages, audio transcription is also activated for publication. With this technology, a temporary voice chat recording of reported players can be created with text-to-speech programs and then examined for disruptive behavior with chat verification tools. As soon as an audio recording has been converted to text, it will be deleted, the text file no later than 30 days after transcription.
+                     </p>
+                     <p>
+                        New endings start the game significantly slower than before: e.g. ranked matches only activate after 50 wins in quick search matches, so only more experienced players end up in the ranked list. Toxic behavior can thus be filtered out before the ranked matches, and the time invested helps newcomers gain gaming experience.
+                        Instead of penalties, Blizzard is also using a new recognition system: in future you will only nominate players from your own team, and there will only be one recognition category per match. Those who achieve high levels of recognition will receive extra Battle Pass experience from Blizzard.
+                     </p>
+                     <p>The general chat will be removed without replacement as it was a hotbed of disruptive behavior in the past, you can still use other chats in the game without restrictions. Those who do without voice chat can use the newly introduced ping system to communicate with team members.</p>
+                     <i>Overwatch 2 will be released on October 4th, 2022 for PC, PlayStation4, Nintendo Switch, Xbox One and Xbox Series X|S.</i>
+                     <a href="/html/index.html" target="_blank">Back to main page</a>
+                  </div>
+               </div>
+               <!----end of item----->
+            </div>
+         </div>
+      </section>
+      <!-----end of blog----->
+   </body>
+</html>

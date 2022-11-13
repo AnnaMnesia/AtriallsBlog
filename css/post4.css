@@ -1,30 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fragment+Mono:ital@0;1&family=Righteous&family=Rubik+Wet+Paint&display=swap');
 
 
-:root{
-    --Bungee:'Bungee Shade', regular;
-    --Fragment:'Fragment Mono', regular;
-    --Righteous:'Righteous', display;
-    --Rubik:'Rubik Wet Paint', display
+:root {
+    --Bungee: 'Bungee Shade', regular;
+    --Fragment: 'Fragment Mono', regular;
+    --Righteous: 'Righteous', display;
+    --Rubik: 'Rubik Wet Paint', display
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: var(--Fragment);
 }
 
-body{
+body {
     line-height: 1.4;
     color: var(--black);
     background-color: black;
 }
-img{
+
+img {
     width: 100%;
     display: block;
 }
 
-.container{
+.container {
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 1.2rem;
@@ -32,13 +33,13 @@ img{
 
 /*--------header---------*/
 
-.navbar{
+.navbar {
     text-align: center;
     padding: 2rem;
-    background:#4C07E8;
+    background: #4C07E8;
 }
 
-.navbar_brand{
+.navbar_brand {
     color: #ffff;
     font-size: 2.5rem;
     display: block;
@@ -48,12 +49,12 @@ img{
     letter-spacing: 1px;
 }
 
-.navbar_brand:hover{
+.navbar_brand:hover {
     color: #38D1AA;
 }
 
-.navbar_nav a{
-    color:#ffff;
+.navbar_nav a {
+    color: #ffff;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 1px;
@@ -63,26 +64,27 @@ img{
     transition: opacity 0.5s ease;
 }
 
-.navbar_nav a:hover{
+.navbar_nav a:hover {
     color: #38D1AA;
 }
 
 /*----post----*/
-.blog{
+.blog {
     background: black;
     padding: 4.5rem 0;
 }
-.blog_content{
+
+.blog_content {
     margin: 2rem 0;
     color: #ffff;
 }
 
-.blog_img{
+.blog_img {
     position: relative;
     margin: 5rem;
 }
 
-.blog_img span{
+.blog_img span {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -91,37 +93,39 @@ img{
     font-size: 1.5rem;
     padding: 0.3rem 0.6rem;
 }
-.blog_img span:hover{
+
+.blog_img span:hover {
     color: #4C07E8;
     background: #ffff;
 }
 
-.blog_text{
+.blog_text {
     margin: 2.2rem 0;
     padding: 0 1rem;
     color: #ffff;
 }
 
-.blog_text span{
+.blog_text span {
     display: block;
     padding-bottom: 0.5rem;
 }
 
-
-.blog_text p{
+.blog_text p {
     font-size: 1.1rem;
     opacity: 0.9;
     padding-bottom: 1.2rem;
 }
-.blog_text h3{
+
+.blog_text h3 {
     color: #4C07E8;
-    margin: 1.5rem 0 ;
-}
-.blog_text h4{
     margin: 1.5rem 0;
 }
 
-.blog_text a{
+.blog_text h4 {
+    margin: 1.5rem 0;
+}
+
+.blog_text a {
     font-family: var(--Rubik);
     font-size: 1.4rem;
     text-decoration: none;
@@ -130,42 +134,75 @@ img{
     display: inline-block;
     padding: 0.30rem 0.60rem;
     transition: all 0.5s ease;
+    margin: 2rem 0;
 }
 
-.blog_text a:hover{
+.blog_text a:hover {
     color: #4C07E8;
     background: #CFFF3F;
 }
 
-.blog_item h1{
+.blog_item h1 {
     color: #4C07E8;
     margin: 5rem 0;
     font-size: 3rem;
 
 }
 
-.blog_item h1:hover{
+.blog_item h1:hover {
     color: #CFFF3F;
 }
 
-.blog_item h2{
+.blog_item h2 {
     margin: 3rem 0;
     color: #ffff;
     font-size: 1.5rem;
 }
 
-.blog_text #stalker2{
-    color:#CFFF3F;
+.blog_text #stalker2 {
+    color: #CFFF3F;
     background: none;
     font-family: var(--Fragment);
     font-size: 1rem;
-    
+
 }
 
-.callisto_list{
-    margin: 2rem ;
-}
-
-iframe{
+.callisto_list {
     margin: 2rem;
+}
+
+iframe {
+    margin: 2rem 0;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.container2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: #CFFF3F;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #CFFF3F;
 }
