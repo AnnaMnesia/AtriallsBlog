@@ -70,7 +70,7 @@ img {
 
 /*----post----*/
 .blog {
-    background: black;
+    background: url(/images/kratos3.png) center/cover no-repeat fixed;
     padding: 4.5rem 0;
 }
 
